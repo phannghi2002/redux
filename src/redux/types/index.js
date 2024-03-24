@@ -1,0 +1,2 @@
+export const SET_PRODUCT = "SET_PRODUCT";
+export const SELECTED_PRODUCT = "SELECTED_PRODUCT";

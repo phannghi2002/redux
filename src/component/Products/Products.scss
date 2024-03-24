@@ -1,0 +1,50 @@
+._card {
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  transition: transform 0.3s, border-color 0.3s;
+
+  &:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+  }
+}
+
+.img {
+  width: 62%;
+  height: 55%;
+  margin-bottom: 10px;
+  margin: auto;
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.card-content {
+  flex: 1;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  height: 66px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Specify the maximum number of rows */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.price {
+  margin-top: 5px;
+}
+
+.category {
+  color: #ccc;
+  margin-top: 5px;
+  font-size: 18px;
+}
+.link {
+  text-decoration: none;
+  color: black;
+  display: grid;
+}
